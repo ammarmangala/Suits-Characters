@@ -9,13 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="218f60d6-ca93-43e5-9684-8610f6e7e772" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/suits_character_api.metadata.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/suits_character_api.projects.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/suits_character_api/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/suits_character_api/FileContentIndex/6de99781-1b53-4f8a-9d35-c977ee884709.vsidx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.suits_character_api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.suits_character_api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/suits_character_api/FileContentIndex/209781e5-070a-45a5-820e-50981dbb8e9d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/suits_character_api/FileContentIndex/6791113c-aa65-4f0e-aa99-f59f3dfc08ec.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/suits_character_api/Controllers/SuitsCharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/Controllers/SuitsCharacterController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.41" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="HotReloadSettingsPage" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.suits_character_api">
@@ -92,7 +89,7 @@
       <workItem from="1656300630910" duration="635000" />
       <workItem from="1656312741528" duration="361000" />
       <workItem from="1656313152488" duration="211000" />
-      <workItem from="1656313536180" duration="1865000" />
+      <workItem from="1656313536180" duration="2916000" />
     </task>
     <servers />
   </component>

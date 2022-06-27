@@ -21,5 +21,30 @@ namespace suits_character_api.Controllers
             return Ok(await _context.SuitsCharacters.ToListAsync());
             
         }
+
+        [HttpPost]
+        public async Task<ActionResult<SuitsCharacter>> PostSuitsCharacter(SuitsCharacter character)
+        {
+            _context.SuitsCharacters.Add(character);
+            await _context.SaveChangesAsync();
+            return Ok(await _context.SuitsCharacters.ToListAsync());
+        }
+        [HttpPut]
+        public async Task<ActionResult<SuitsCharacter>> PutSuitsCharacter(SuitsCharacter character)
+        {
+            var dbCharacter = await _context.SuitsCharacters.FindAsync(character.Id);
+            if(dbCharacter == null)
+                return BadRequest("Character not found");
+            
+            dbCharacter.Name = character.Name;
+            dbCharacter.FirstName = character.FirstName;
+            dbCharacter.LastName = character.LastName;
+            dbCharacter.JobTitle = character.JobTitle;
+            dbCharacter.Company = character.Company;
+            
+            await _context.SaveChangesAsync();
+            
+            return Ok(await _context.SuitsCharacters.ToListAsync());
+        }
     }
 }
