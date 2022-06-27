@@ -10,6 +10,7 @@ import { SuitsCharacterService } from './services/suits-character.service';
 export class AppComponent {
   title = 'frontend_angular';
   characters : SuitsCharacter[] = [];
+  characterToEdit?: SuitsCharacter;
 
   constructor(private suitsCharacterService: SuitsCharacterService) { }
 
@@ -17,5 +18,13 @@ export class AppComponent {
     this.suitsCharacterService
     .getSuitsCharacters()
     .subscribe((result: SuitsCharacter[]) => (this.characters = result));
+  }
+
+  initNewCharacter() {
+    this.characterToEdit = new SuitsCharacter();
+  }
+
+  editCharacter(character: SuitsCharacter){
+    this.characterToEdit = character;
   }
 }

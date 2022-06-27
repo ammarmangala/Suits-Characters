@@ -1,3 +1,4 @@
+<button (click)="initNewCharacter()">Create New Character</button>
 <table>
   <thead>
     <th>Name</th>
@@ -13,6 +14,9 @@
       <td>{{ character.lastName }}</td>
       <td>{{ character.jobTitle }}</td>
       <td>{{ character.company }}</td>
+      <td><button (click)="editCharacter(character)">Edit</button></td>
     </tr>
   </tbody>
 </table>
+
+<app-edit-character [character]="characterToEdit"></app-edit-character>

@@ -16,4 +16,17 @@ export class SuitsCharacterService {
   public getSuitsCharacters() : Observable<SuitsCharacter[]> {
     return this.http.get<SuitsCharacter[]>(`${environment.apiUrl}/${this.url}`);
   }
+
+  public updateSuitsCharacters(character: SuitsCharacter) : Observable<SuitsCharacter[]> {
+    return this.http.put<SuitsCharacter[]>(`${environment.apiUrl}/${this.url}`, character);
+  }
+
+  public createSuitsCharacters(character: SuitsCharacter) : Observable<SuitsCharacter[]> {
+    return this.http.post<SuitsCharacter[]>(`${environment.apiUrl}/${this.url}`, character);
+  }
+
+  public deleteSuitsCharacters(character: SuitsCharacter) : Observable<SuitsCharacter[]> {
+    return this.http.delete<SuitsCharacter[]>(`${environment.apiUrl}/${this.url}/${character.id}`);
+  }
+
 }
