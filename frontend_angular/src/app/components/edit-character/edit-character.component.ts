@@ -1,5 +1,6 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {SuitsCharacter} from "../../models/suits-character";
+import {SuitsCharacterService} from "../../services/suits-character.service";
 
 @Component({
   selector: 'app-edit-character',
@@ -8,16 +9,28 @@ import {SuitsCharacter} from "../../models/suits-character";
 })
 export class EditCharacterComponent implements OnInit {
   @Input() character?: SuitsCharacter;
+  @Output() characterUpdated = new EventEmitter<SuitsCharacter[]>();
 
-  constructor() { }
+  constructor(private suitsCharacterService: SuitsCharacterService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { }
+
+  updateCharacter(character:SuitsCharacter){
+    this.suitsCharacterService
+      .updateSuitsCharacters(character)
+      .subscribe((characters) => this.characterUpdated.emit(characters));
   }
 
-  updateCharacter(character:SuitsCharacter){ }
+  deleteCharacter(character:SuitsCharacter){
+    this.suitsCharacterService
+      .deleteSuitsCharacters(character)
+      .subscribe((characters) => this.characterUpdated.emit(characters));
+  }
 
-  deleteCharacter(character:SuitsCharacter){ }
-
-  createCharacter(character:SuitsCharacter){ }
+  createCharacter(character:SuitsCharacter){
+    this.suitsCharacterService
+      .createSuitsCharacters(character)
+      .subscribe((characters) => this.characterUpdated.emit(characters));
+  }
 
 }

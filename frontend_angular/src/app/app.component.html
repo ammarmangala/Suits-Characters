@@ -14,9 +14,12 @@
       <td>{{ character.lastName }}</td>
       <td>{{ character.jobTitle }}</td>
       <td>{{ character.company }}</td>
-      <td><button (click)="editCharacter(character)">Edit</button></td>
+     <td><button (click)="editCharacter(character)">Edit</button></td>
     </tr>
   </tbody>
 </table>
 
-<app-edit-character [character]="characterToEdit"></app-edit-character>
+<app-edit-character
+  [character]="characterToEdit"
+  (characterUpdated)="updateCharacterList($event)">
+</app-edit-character>

@@ -20,11 +20,15 @@ export class AppComponent {
     .subscribe((result: SuitsCharacter[]) => (this.characters = result));
   }
 
+  updateCharacterList(characters: SuitsCharacter[]) {
+    this.characters = characters;
+  }
+
   initNewCharacter() {
     this.characterToEdit = new SuitsCharacter();
   }
 
-  editCharacter(character: SuitsCharacter){
-    this.characterToEdit = character;
+  editCharacter(characters: SuitsCharacter){
+    this.characterToEdit = characters;
   }
 }
