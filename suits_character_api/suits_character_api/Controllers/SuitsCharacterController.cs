@@ -46,5 +46,15 @@ namespace suits_character_api.Controllers
             
             return Ok(await _context.SuitsCharacters.ToListAsync());
         }
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<SuitsCharacter>> DeleteSuitsCharacter(int id)
+        {
+            var dbCharacter = await _context.SuitsCharacters.FindAsync(id);
+            if(dbCharacter == null)
+                return BadRequest("Character not found");
+            _context.SuitsCharacters.Remove(dbCharacter);
+            await _context.SaveChangesAsync();
+            return Ok(await _context.SuitsCharacters.ToListAsync());
+        }
     }
 }

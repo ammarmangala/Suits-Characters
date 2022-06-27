@@ -9,10 +9,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="218f60d6-ca93-43e5-9684-8610f6e7e772" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/suits_character_api/FileContentIndex/6de99781-1b53-4f8a-9d35-c977ee884709.vsidx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend_angular/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_angular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend_angular/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend_angular/src/app/components/edit-character/edit-character.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend_angular/src/app/components/edit-character/edit-character.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.suits_character_api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.suits_character_api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/suits_character_api/FileContentIndex/6791113c-aa65-4f0e-aa99-f59f3dfc08ec.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/suits_character_api/FileContentIndex/4ca9399a-52c4-4648-83fb-896f824b7b23.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/suits_character_api/Controllers/SuitsCharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/Controllers/SuitsCharacterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/ref/suits_character_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/ref/suits_character_api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/refint/suits_character_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/refint/suits_character_api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +98,7 @@
       <workItem from="1656300630910" duration="635000" />
       <workItem from="1656312741528" duration="361000" />
       <workItem from="1656313152488" duration="211000" />
-      <workItem from="1656313536180" duration="2916000" />
+      <workItem from="1656313536180" duration="5705000" />
     </task>
     <servers />
   </component>
