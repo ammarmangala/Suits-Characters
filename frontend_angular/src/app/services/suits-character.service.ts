@@ -1,4 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 import { SuitsCharacter } from '../models/suits-character';
 
 @Injectable({
@@ -6,17 +9,11 @@ import { SuitsCharacter } from '../models/suits-character';
 })
 export class SuitsCharacterService {
 
-  constructor() { }
+  private url = "SuitsCharacter";
 
-  public getSuitsCharacters() : SuitsCharacter[] {
-    let character = new SuitsCharacter();
-    character.id = 1;
-    character.name = "Harvey Specter";
-    character.firstName = "Gabriel";
-    character.lastName = "Macht";
-    character.jobTitle = "Lawyer";
-    character.company = "Pearson Specter LLC";
+  constructor(private http: HttpClient) { }
 
-    return [character];
+  public getSuitsCharacters() : Observable<SuitsCharacter[]> {
+    return this.http.get<SuitsCharacter[]>(`${environment.apiUrl}/${this.url}`);
   }
 }

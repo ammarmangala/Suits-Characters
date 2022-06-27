@@ -14,7 +14,8 @@ export class AppComponent {
   constructor(private suitsCharacterService: SuitsCharacterService) { }
 
   ngOnInit() : void {
-    this.characters = this.suitsCharacterService.getSuitsCharacters();
-    console.log(this.characters);
+    this.suitsCharacterService
+    .getSuitsCharacters()
+    .subscribe((result: SuitsCharacter[]) => (this.characters = result));
   }
 }
