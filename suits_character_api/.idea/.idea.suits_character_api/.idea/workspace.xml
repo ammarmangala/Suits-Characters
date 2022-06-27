@@ -4,41 +4,26 @@
     <projectFile profileName="suits_character_api">suits_character_api/suits_character_api.csproj</projectFile>
     <projectFile profileName="IIS Express">suits_character_api/suits_character_api.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="218f60d6-ca93-43e5-9684-8610f6e7e772" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.suits_character_api/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.suits_character_api/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.suits_character_api/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.suits_character_api/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/suits_character_api/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/suits_character_api/FileContentIndex/2fe8549a-563a-4f0e-859d-364e0943bb82.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/suits_character_api/FileContentIndex/f02a9dea-823f-4425-ab54-6fbd4f83ae1b.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/suits_character_api/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/suits_character_api/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/bin/Debug/net6.0/suits_character_api.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/ref/suits_character_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/ref/suits_character_api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/refint/suits_character_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/refint/suits_character_api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/Debug/net6.0/suits_character_api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/suits_character_api.metadata.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/suits_character_api.projects.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/suits_character_api/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.suits_character_api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.suits_character_api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/suits_character_api/FileContentIndex/209781e5-070a-45a5-820e-50981dbb8e9d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/suits_character_api/Controllers/SuitsCharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/Controllers/SuitsCharacterController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/suits_character_api/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/suits_character_api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/suits_character_api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/obj/suits_character_api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/obj/suits_character_api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suits_character_api/suits_character_api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/suits_character_api/suits_character_api.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2B8upT0QmPDDLQ2sBomPaBMXehT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,11 +35,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="AzureAzuriteCertKeyPath" value="" />
+    <property name="AzureAzuriteCertPassword" value="" />
+    <property name="AzureAzuriteCertPath" value="" />
+    <property name="AzureAzuriteLocation" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.41" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.suits_character_api">
@@ -98,6 +89,10 @@
       <option name="presentableId" value="Default" />
       <updated>1656300242387</updated>
       <workItem from="1656300297383" duration="217000" />
+      <workItem from="1656300630910" duration="635000" />
+      <workItem from="1656312741528" duration="361000" />
+      <workItem from="1656313152488" duration="211000" />
+      <workItem from="1656313536180" duration="1865000" />
     </task>
     <servers />
   </component>
@@ -105,7 +100,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -121,5 +116,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using suits_character_api.Data;
 
 namespace suits_character_api.Controllers
 {
@@ -7,19 +9,17 @@ namespace suits_character_api.Controllers
     [ApiController]
     public class SuitsCharacterController : ControllerBase
     {
+        private readonly DataContext _context;
+
+        public SuitsCharacterController(DataContext context)
+        {
+            _context = context;
+        }
         [HttpGet]
         public async Task<ActionResult<List<SuitsCharacter>>> GetSuitsCharacter()
         {
-            return new List<SuitsCharacter> { 
-                new SuitsCharacter
-                {
-                    Name = "Harvey Specter",
-                    FirstName = "Gabriel",
-                    LastName = "Macht",
-                    JobTitle = "Lawyer",
-                    Company = "Pearson Spectre LLC"
-                }
-            };
+            return Ok(await _context.SuitsCharacters.ToListAsync());
+            
         }
     }
 }
